@@ -1,3 +1,20 @@
+/* Esta clase sirve para hacer pruebas. El sistema es un trabajo en progreso
+ La prueba desplegada consiste en:
+ - Crear una Entidad en memoria "Tique" y crear un vector que contiene la data de un registro
+   enviar el vector de data a la entidad como un Alta.
+ Lo que hace el programa durante la prueba:
+ - Carga la Entidad Tique en memoria leyendo la informacion desde los archivos 
+ 	SysTable.csv, 
+	SysColumn.csv, 
+	SysPrimaryKey.csv y 
+	SysForeignKey.csv
+   define la Entidad y manipula la funcionalidad del tipo en memoria.
+ - Para dar el alta el programa busca la Tabla especifica de la entidad en el subfolder Tablas
+ - Para leer los datos el programa hace las verificaciones especificas de entidad y busca las tablas
+   y muestra los registros pertenecientes a la entidad. 
+   
+*/ 
+
 #pragma once
 #include "TesterClass.h"
 #include "SysEntity.h"
